@@ -1,0 +1,20 @@
+baseURL = "https://tullingedk.se"
+languageCode = "sv"
+DefaultContentLanguage = "sv"
+title = "Tullinge datorklubb"
+
+theme = "book"
+
+# enableGitInfo = true
+
+[permalinks]
+  posts = "/:year/:month/:filename/"
+
+[params]
+    BookRepo = 'https://github.com/tullingedk/website'
+    BookEditPath = 'edit/master/content'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
