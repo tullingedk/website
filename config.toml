@@ -5,7 +5,7 @@ title = "Tullinge datorklubb"
 
 theme = "book"
 
-# enableGitInfo = true
+enableGitInfo = true
 
 [permalinks]
   posts = "/:year/:month/:filename/"
