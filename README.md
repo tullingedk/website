@@ -1,6 +1,6 @@
 # tullingedk/website
 
-Source code to [tullingedk.se](https://tullingedk.se).
+Source code to [tullingedk.vilhelmprytz.se](https://tullingedk.vilhelmprytz.se).
 
 ## Working with the project locally
 

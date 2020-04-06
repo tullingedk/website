@@ -1,12 +1,12 @@
 ---
-title: Välkommen till tullingedk.se!
+title: Välkommen till hemsidan!
 author: "Vilhelm Prytz"
 date: 2020-04-03
-linktitle: Välkommen till tullingedk.se!
-title: Välkommen till tullingedk.se!
+linktitle: Välkommen till hemsidan!
+title: Välkommen till hemsidan!
 weight: 10
 ---
 
 # Introduktion
 
-Detta är det första testinlägget på tullingedk.se!
+Detta är det första testinlägget.
