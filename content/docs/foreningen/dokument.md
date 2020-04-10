@@ -5,11 +5,8 @@ weight: 20
 
 # Dokument
 
-Här finner du ett akriv på dokument (årsmöteshandlingar, protkoll osv.).
+Här finner du ett akriv på dokument.
 
-[Stadgar]().
+[Stadgar](https://www.dropbox.com/s/jfhkiznd83o64t7/Tullinge_gymnasium_datorklubb_stadgar.docx?dl=0).
 
 ## 2020
-
-* [Verksamhetsberättelse 2020]()
-* [Årsmötesprotkoll 2020-XX-XX]()
