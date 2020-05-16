@@ -1,7 +1,5 @@
-os: linux
-
 ---
-install:
+  install:
     - # LATEST_VERSION=`curl --silent "https://api.github.com/repos/gohugoio/hugo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/'`
     - LATEST_VERSION="v0.70.0"
     - VERSION_NO_PREFIX=`echo $LATEST_VERSION | cut -c 2-`
@@ -11,7 +9,7 @@ install:
     - tar -xf hugo.tar.gz
     - ./hugo version
     - gem install mdl
-
-script:
+  
+  script:
     - ./hugo --minify
     - mdl content --rules "~MD013"
