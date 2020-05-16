@@ -1,27 +1,17 @@
-language: node_js
-node_js:
-    - 12
+os: linux
 
-services:
-    - docker 
+---
+install:
+    - # LATEST_VERSION=`curl --silent "https://api.github.com/repos/gohugoio/hugo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/'`
+    - LATEST_VERSION="v0.70.0"
+    - VERSION_NO_PREFIX=`echo $LATEST_VERSION | cut -c 2-`
+    - DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/$LATEST_VERSION/hugo_extended_${VERSION_NO_PREFIX}_Linux-64bit.tar.gz"
+    - echo $DOWNLOAD_URL
+    - curl -L -o hugo.tar.gz $DOWNLOAD_URL
+    - tar -xf hugo.tar.gz
+    - ./hugo version
+    - gem install mdl
 
-jobs:
-    include:
-    - stage: Check code quality
-      install:
-        - npm install --global prettier
-      script:
-        - prettier --check "src/**/*.js"
-
-    - stage: Build & push Docker image
-      script:
-        - docker build -t tullingedk/website:latest .
-      deploy:
-        skip_cleanup: true
-        provider: script
-        script: echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin && docker push tullingedk/website:latest
-        on:
-            branch: master
-
-      after_deploy:
-        - rm -rf /home/travis/.docker/config.json
+script:
+    - ./hugo --minify
+    - mdl content --rules "~MD013"

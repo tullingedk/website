@@ -4,24 +4,23 @@ Source code to [tgdk.se](https://tgdk.se).
 
 ## Working with the project locally
 
-Node.js and npm is required.
+Before you start, make sure you have Hugo *extended version* installed. Hugo can be installed via [Homebrew](https://brew.sh/index_sv) on macOS, [Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux) on Linux or just as an executable on Windows. See the project [GitHub releases](https://github.com/gohugoio/hugo/releases) or the [Hugo website](https://gohugo.io).
 
-Install modules.
+Clone the project to your computer.
 
-```bash
-npm install
-```
-Start the development server.
+Download the theme as a git submodule.
 
 ```bash
-npm start
+git submodule update --init
 ```
 
-Build production build.
+You can now serve the page locally, on your computer.
 
 ```bash
-npm run build
+hugo serve
 ```
+
+View the page [http://localhost:1313](http://localhost:1313) in your browser.
 
 ## Author
 
