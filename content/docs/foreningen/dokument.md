@@ -7,8 +7,8 @@ weight: 20
 
 Här finner du ett akriv på dokument.
 
-[Stadgar](https://www.dropbox.com/s/jfhkiznd83o64t7/Tullinge_gymnasium_datorklubb_stadgar.docx?dl=0).
+[Stadgar som gäller just nu, version 2020-04-24](/documents/2020/stadgar-2020-04-24.pdf).
 
 ## 2020
 
-* 24 april: föreningen bildas, [stadgarna antogs](https://www.dropbox.com/s/jfhkiznd83o64t7/Tullinge_gymnasium_datorklubb_stadgar.docx?dl=0)
+* 24 april 2020: föreningen bildas, [stadgarna antogs](/documents/2020/stadgar-2020-04-24.pdf)
