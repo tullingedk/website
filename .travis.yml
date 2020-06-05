@@ -13,3 +13,17 @@
   script:
     - ./hugo --minify
     - mdl content --rules "~MD013"
+    - echo "$PAGES_DEPLOY_KEY" > deploy_key
+
+  deploy:
+    provider: pages:git
+    repo: tullingedk/tullingedk.github.io
+    deploy_key: deploy_key
+    local_dir: public
+    target_branch: master
+    edge: true # opt in to dpl v2
+    on:
+      branch: master
+
+  after_deploy:
+    - rm -rf deploy_key
