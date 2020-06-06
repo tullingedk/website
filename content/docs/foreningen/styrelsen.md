@@ -5,7 +5,7 @@ weight: 10
 
 # Styrelsen
 
-Styrelsen för verksamhetsåret 2020-04-24 till 2021-06-31.
+Styrelsen för verksamhetsåret 2020-04-24 till 2021-06-30.
 
 * Fredrik Berzins, TE18 - *Ordförande*
 * Tim Torndal, TE19 - *Vice ordförande*
