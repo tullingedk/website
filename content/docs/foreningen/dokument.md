@@ -11,5 +11,9 @@ Här finner du ett akriv på dokument.
 
 ## 2020
 
-* (planerat) 23 september 2020: Årsmöte 2020!
-* 24 april 2020: föreningen bildas, [stadgarna antogs](/documents/2020/stadgar-2020-04-24.pdf)
+* 23 september: Årsmöte 2020
+  * Årsmötesprotokoll
+  * Konstituerande styrelsemöte
+* 24 april: Föreningens bildande
+  * [Stadgarna antogs](/documents/2020/stadgar-2020-04-24.pdf)
+  * [Konstituerande styrelsemöte](/documents/2020/konstituerande-styrelsemote-2020-04-24.pdf)
