@@ -14,6 +14,8 @@ Här finner du ett akriv på dokument.
 * 23 september: Årsmöte 2020
   * Årsmötesprotokoll
   * Konstituerande styrelsemöte
+  * [Balansrapport](/documents/2020/Balansrapport%202020-05-04-2020-06-30.pdf)
+  * [Resultatrapport](/documents/2020/Resultatrapport%202020-05-04-2020-06-30.pdf)
 * 24 april: Föreningens bildande
   * [Stadgarna antogs](/documents/2020/stadgar-2020-04-24.pdf)
   * [Konstituerande styrelsemöte](/documents/2020/konstituerande-styrelsemote-2020-04-24.pdf)
