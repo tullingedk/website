@@ -12,7 +12,7 @@ Här finner du ett akriv på dokument.
 ## 2020
 
 * 23 september: Årsmöte 2020
-  * Årsmötesprotokoll
+  * [Årsmötesprotokoll](/documents/2020/arsmote-2020.pdf)
   * Konstituerande styrelsemöte
   * [Balansrapport](/documents/2020/Balansrapport%202020-05-04-2020-06-30.pdf)
   * [Resultatrapport](/documents/2020/Resultatrapport%202020-05-04-2020-06-30.pdf)
