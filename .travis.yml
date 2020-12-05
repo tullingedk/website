@@ -1,29 +1,29 @@
 ---
-  install:
-    - # LATEST_VERSION=`curl --silent "https://api.github.com/repos/gohugoio/hugo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/'`
-    - LATEST_VERSION="v0.76.2"
-    - VERSION_NO_PREFIX=`echo $LATEST_VERSION | cut -c 2-`
-    - DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/$LATEST_VERSION/hugo_extended_${VERSION_NO_PREFIX}_Linux-64bit.tar.gz"
-    - echo $DOWNLOAD_URL
-    - curl -L -o hugo.tar.gz $DOWNLOAD_URL
-    - tar -xf hugo.tar.gz
-    - ./hugo version
-    - gem install mdl
-  
-  script:
-    - ./hugo --minify
-    - mdl content --rules "~MD013,~MD034"
+install:
+  -  # LATEST_VERSION=`curl --silent "https://api.github.com/repos/gohugoio/hugo/releases/latest" | grep '"tag_name":' | sed -E 's/.*"([^"]+)".*/\1/'`
+  - LATEST_VERSION="v0.79.0"
+  - VERSION_NO_PREFIX=`echo $LATEST_VERSION | cut -c 2-`
+  - DOWNLOAD_URL="https://github.com/gohugoio/hugo/releases/download/$LATEST_VERSION/hugo_extended_${VERSION_NO_PREFIX}_Linux-64bit.tar.gz"
+  - echo $DOWNLOAD_URL
+  - curl -L -o hugo.tar.gz $DOWNLOAD_URL
+  - tar -xf hugo.tar.gz
+  - ./hugo version
+  - gem install mdl
 
-  before_deploy:
-    - openssl aes-256-cbc -K $encrypted_49634e5b1863_key -iv $encrypted_49634e5b1863_iv -in travis_deploy_key.enc -out travis_deploy_key -d
+script:
+  - ./hugo --minify
+  - mdl content --rules "~MD013,~MD034"
 
-  deploy:
-    provider: pages:git
-    repo: tullingedk/tullingedk.github.io
-    deploy_key: travis_deploy_key
-    local_dir: public
-    target_branch: master
-    fqdn: tgdk.se
-    edge: true # opt in to dpl v2
-    on:
-      branch: master
+before_deploy:
+  - openssl aes-256-cbc -K $encrypted_49634e5b1863_key -iv $encrypted_49634e5b1863_iv -in travis_deploy_key.enc -out travis_deploy_key -d
+
+deploy:
+  provider: pages:git
+  repo: tullingedk/tullingedk.github.io
+  deploy_key: travis_deploy_key
+  local_dir: public
+  target_branch: master
+  fqdn: tgdk.se
+  edge: true # opt in to dpl v2
+  on:
+    branch: master

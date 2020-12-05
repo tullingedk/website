@@ -4,7 +4,7 @@ Source code to [tgdk.se](https://tgdk.se).
 
 ## Working with the project locally
 
-Before you start, make sure you have Hugo *extended version* installed. Hugo can be installed via [Homebrew](https://brew.sh/index_sv) on macOS, [Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux) on Linux or just as an executable on Windows. See the project [GitHub releases](https://github.com/gohugoio/hugo/releases) or the [Hugo website](https://gohugo.io).
+Before you start, make sure you have Hugo _extended version_ installed. Hugo can be installed via [Homebrew](https://brew.sh/index_sv) on macOS, [Linuxbrew](https://docs.brew.sh/Homebrew-on-Linux) on Linux or just as an executable on Windows. See the project [GitHub releases](https://github.com/gohugoio/hugo/releases) or the [Hugo website](https://gohugo.io).
 
 Clone the project to your computer.
 
@@ -24,4 +24,4 @@ View the page [http://localhost:1313](http://localhost:1313) in your browser.
 
 ## Author
 
-Initially written by [Vilhelm Prytz](https://github.com/VilhelmPrytz).
+Initially written by [Vilhelm Prytz](https://github.com/vilhelmprytz).
