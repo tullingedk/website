@@ -1,6 +1,6 @@
 ---
 title: Styrelsen
-weight: 10
+weight: 200
 ---
 
 # Styrelsen

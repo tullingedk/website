@@ -1,6 +1,6 @@
 ---
 title: Bli medlem
-weight: 5
+weight: 100
 ---
 
 # Bli medlem

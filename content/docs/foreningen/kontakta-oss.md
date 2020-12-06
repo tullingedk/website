@@ -1,6 +1,6 @@
 ---
 title: Kontakta oss
-weight: 30
+weight: 400
 ---
 
 # Kontakta oss
