@@ -9,6 +9,8 @@ Datorklubben har en egen Minecraftserver för dess medlemmar. För att gå med, 
 
 När du fyllt i formuläret, kontakta någon i styrelsen som då whitelistar dig.
 
+Inga fusk är tillåtna. Endast OptiFine är tillåtet.
+
 IPn till servern:
 
 ```text
