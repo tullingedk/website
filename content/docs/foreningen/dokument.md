@@ -11,8 +11,8 @@ Här finner du ett akriv på dokument.
 
 ## 2021
 
-- ? september: Årsmöte 2021
-  - Årsmötesprotokoll (publiceras efter årsmötet)
+- 22 september: Årsmöte 2021
+  - [Årsmötesprotokoll](/documents/2021/arsmote-2021.pdf)
   - Konstituerande styrelsemöte (publiceras efter årsmötet)
   - [Balansrapport](/documents/2021/Balansrapport%202020-07-01-2021-06-30.pdf)
   - [Resultatrapport](/documents/2021/Resultatrapport%202020-07-01-2021-06-30.pdf)
